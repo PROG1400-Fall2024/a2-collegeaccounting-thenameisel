@@ -17,7 +17,7 @@ public class Staff extends Person{
         return numOfStaff;
     }
 
-    public double getYearSalery() {
+    public double getYearSalary() {
         return yearSalery;
     }
 

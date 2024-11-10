@@ -96,7 +96,7 @@ public class Main {
         }
         outputReport += "Staff: " + Staff.numOfStaff + "\n";
         for(Staff staff : staffList){
-            salaryTally += staff.getYearSalery();
+            salaryTally += staff.getYearSalary();
             outputReport += staff.toString() + "\n";
         }
         outputReport += "Results:\nOutgoing: $" + String.format("%.2f", salaryTally/26) + "\nIncoming: $" + String.format("%.2f", feeTally) + "\nTotal: $" + String.format("%.2f", feeTally-(salaryTally/26));
