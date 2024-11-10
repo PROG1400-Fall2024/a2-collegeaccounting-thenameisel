@@ -17,6 +17,10 @@ public class Staff extends Person{
         return numOfStaff;
     }
 
+    public double getYearSalery() {
+        return yearSalery;
+    }
+
     //setters
     public void updateYearsOfService(int newYear){
         this.yearsOfService = newYear;

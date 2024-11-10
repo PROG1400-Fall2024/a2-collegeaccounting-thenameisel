@@ -18,6 +18,10 @@ public class Student extends Person{
         return numOfStudents;
     }
 
+    public double getYearFees() {
+        return yearFees;
+    }
+
     //setters
     public void updateYearAttending(int newYear) {
         this.yearAttending = newYear;
